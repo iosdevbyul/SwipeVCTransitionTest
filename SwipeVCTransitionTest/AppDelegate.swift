@@ -9,11 +9,14 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        let tabBarController = MainViewController()
+//        tabBarController.viewControllers = [FirstViewController(), SecondViewController(), ThirdViewController()]
+//        window?.rootViewController = tabBarController
+//        window?.makeKeyAndVisible()
+        print("a")
         return true
     }
 
