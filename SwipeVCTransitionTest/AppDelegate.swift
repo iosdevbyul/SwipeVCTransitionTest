@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        tabBarController.viewControllers = [FirstViewController(), SecondViewController(), ThirdViewController()]
 //        window?.rootViewController = tabBarController
 //        window?.makeKeyAndVisible()
-
+        print("a")
         return true
     }
 
