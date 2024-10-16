@@ -9,14 +9,14 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        window = UIWindow(frame: UIScreen.main.bounds)
-        let initialViewController = ViewController()
-        window?.rootViewController = initialViewController
-        window?.makeKeyAndVisible()
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        let tabBarController = MainViewController()
+//        tabBarController.viewControllers = [FirstViewController(), SecondViewController(), ThirdViewController()]
+//        window?.rootViewController = tabBarController
+//        window?.makeKeyAndVisible()
+
         return true
     }
 
